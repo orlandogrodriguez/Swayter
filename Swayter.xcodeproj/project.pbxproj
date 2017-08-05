@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81C35CF41F360EA400249296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C35CF31F360EA400249296 /* AppDelegate.swift */; };
+		81C35CF61F360EA400249296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C35CF51F360EA400249296 /* ViewController.swift */; };
+		81C35CF91F360EA400249296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C35CF71F360EA400249296 /* Main.storyboard */; };
+		81C35CFB1F360EA400249296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C35CFA1F360EA400249296 /* Assets.xcassets */; };
+		81C35CFE1F360EA400249296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C35CFC1F360EA400249296 /* LaunchScreen.storyboard */; };
+		81C35D091F360EA400249296 /* SwayterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C35D081F360EA400249296 /* SwayterTests.swift */; };
+		81C35D141F360EA400249296 /* SwayterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C35D131F360EA400249296 /* SwayterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C35D051F360EA400249296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C35CE81F360EA400249296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C35CEF1F360EA400249296;
+			remoteInfo = Swayter;
+		};
+		81C35D101F360EA400249296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C35CE81F360EA400249296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C35CEF1F360EA400249296;
+			remoteInfo = Swayter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81C35CF01F360EA400249296 /* Swayter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swayter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C35CF31F360EA400249296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81C35CF51F360EA400249296 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81C35CF81F360EA400249296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81C35CFA1F360EA400249296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C35CFD1F360EA400249296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81C35CFF1F360EA400249296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C35D041F360EA400249296 /* SwayterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwayterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C35D081F360EA400249296 /* SwayterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwayterTests.swift; sourceTree = "<group>"; };
+		81C35D0A1F360EA400249296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C35D0F1F360EA400249296 /* SwayterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwayterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C35D131F360EA400249296 /* SwayterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwayterUITests.swift; sourceTree = "<group>"; };
+		81C35D151F360EA400249296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C35CED1F360EA400249296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C35D011F360EA400249296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C35D0C1F360EA400249296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81C35CE71F360EA400249296 = {
+			isa = PBXGroup;
+			children = (
+				81C35CF21F360EA400249296 /* Swayter */,
+				81C35D071F360EA400249296 /* SwayterTests */,
+				81C35D121F360EA400249296 /* SwayterUITests */,
+				81C35CF11F360EA400249296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81C35CF11F360EA400249296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C35CF01F360EA400249296 /* Swayter.app */,
+				81C35D041F360EA400249296 /* SwayterTests.xctest */,
+				81C35D0F1F360EA400249296 /* SwayterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C35CF21F360EA400249296 /* Swayter */ = {
+			isa = PBXGroup;
+			children = (
+				81C35CF31F360EA400249296 /* AppDelegate.swift */,
+				81C35CF51F360EA400249296 /* ViewController.swift */,
+				81C35CF71F360EA400249296 /* Main.storyboard */,
+				81C35CFA1F360EA400249296 /* Assets.xcassets */,
+				81C35CFC1F360EA400249296 /* LaunchScreen.storyboard */,
+				81C35CFF1F360EA400249296 /* Info.plist */,
+			);
+			path = Swayter;
+			sourceTree = "<group>";
+		};
+		81C35D071F360EA400249296 /* SwayterTests */ = {
+			isa = PBXGroup;
+			children = (
+				81C35D081F360EA400249296 /* SwayterTests.swift */,
+				81C35D0A1F360EA400249296 /* Info.plist */,
+			);
+			path = SwayterTests;
+			sourceTree = "<group>";
+		};
+		81C35D121F360EA400249296 /* SwayterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81C35D131F360EA400249296 /* SwayterUITests.swift */,
+				81C35D151F360EA400249296 /* Info.plist */,
+			);
+			path = SwayterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C35CEF1F360EA400249296 /* Swayter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C35D181F360EA400249296 /* Build configuration list for PBXNativeTarget "Swayter" */;
+			buildPhases = (
+				81C35CEC1F360EA400249296 /* Sources */,
+				81C35CED1F360EA400249296 /* Frameworks */,
+				81C35CEE1F360EA400249296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swayter;
+			productName = Swayter;
+			productReference = 81C35CF01F360EA400249296 /* Swayter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81C35D031F360EA400249296 /* SwayterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C35D1B1F360EA400249296 /* Build configuration list for PBXNativeTarget "SwayterTests" */;
+			buildPhases = (
+				81C35D001F360EA400249296 /* Sources */,
+				81C35D011F360EA400249296 /* Frameworks */,
+				81C35D021F360EA400249296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C35D061F360EA400249296 /* PBXTargetDependency */,
+			);
+			name = SwayterTests;
+			productName = SwayterTests;
+			productReference = 81C35D041F360EA400249296 /* SwayterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81C35D0E1F360EA400249296 /* SwayterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C35D1E1F360EA400249296 /* Build configuration list for PBXNativeTarget "SwayterUITests" */;
+			buildPhases = (
+				81C35D0B1F360EA400249296 /* Sources */,
+				81C35D0C1F360EA400249296 /* Frameworks */,
+				81C35D0D1F360EA400249296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C35D111F360EA400249296 /* PBXTargetDependency */,
+			);
+			name = SwayterUITests;
+			productName = SwayterUITests;
+			productReference = 81C35D0F1F360EA400249296 /* SwayterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C35CE81F360EA400249296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Worly Software";
+				TargetAttributes = {
+					81C35CEF1F360EA400249296 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					81C35D031F360EA400249296 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 81C35CEF1F360EA400249296;
+					};
+					81C35D0E1F360EA400249296 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 81C35CEF1F360EA400249296;
+					};
+				};
+			};
+			buildConfigurationList = 81C35CEB1F360EA400249296 /* Build configuration list for PBXProject "Swayter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C35CE71F360EA400249296;
+			productRefGroup = 81C35CF11F360EA400249296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C35CEF1F360EA400249296 /* Swayter */,
+				81C35D031F360EA400249296 /* SwayterTests */,
+				81C35D0E1F360EA400249296 /* SwayterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C35CEE1F360EA400249296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C35CFE1F360EA400249296 /* LaunchScreen.storyboard in Resources */,
+				81C35CFB1F360EA400249296 /* Assets.xcassets in Resources */,
+				81C35CF91F360EA400249296 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C35D021F360EA400249296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C35D0D1F360EA400249296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C35CEC1F360EA400249296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C35CF61F360EA400249296 /* ViewController.swift in Sources */,
+				81C35CF41F360EA400249296 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C35D001F360EA400249296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C35D091F360EA400249296 /* SwayterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C35D0B1F360EA400249296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C35D141F360EA400249296 /* SwayterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C35D061F360EA400249296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C35CEF1F360EA400249296 /* Swayter */;
+			targetProxy = 81C35D051F360EA400249296 /* PBXContainerItemProxy */;
+		};
+		81C35D111F360EA400249296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C35CEF1F360EA400249296 /* Swayter */;
+			targetProxy = 81C35D101F360EA400249296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81C35CF71F360EA400249296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C35CF81F360EA400249296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81C35CFC1F360EA400249296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C35CFD1F360EA400249296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81C35D161F360EA400249296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81C35D171F360EA400249296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C35D191F360EA400249296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LUM87FU73S;
+				INFOPLIST_FILE = Swayter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorlySoftware.Swayter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81C35D1A1F360EA400249296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LUM87FU73S;
+				INFOPLIST_FILE = Swayter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorlySoftware.Swayter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81C35D1C1F360EA400249296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LUM87FU73S;
+				INFOPLIST_FILE = SwayterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorlySoftware.SwayterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swayter.app/Swayter";
+			};
+			name = Debug;
+		};
+		81C35D1D1F360EA400249296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LUM87FU73S;
+				INFOPLIST_FILE = SwayterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorlySoftware.SwayterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swayter.app/Swayter";
+			};
+			name = Release;
+		};
+		81C35D1F1F360EA400249296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LUM87FU73S;
+				INFOPLIST_FILE = SwayterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorlySoftware.SwayterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swayter;
+			};
+			name = Debug;
+		};
+		81C35D201F360EA400249296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LUM87FU73S;
+				INFOPLIST_FILE = SwayterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorlySoftware.SwayterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swayter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C35CEB1F360EA400249296 /* Build configuration list for PBXProject "Swayter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C35D161F360EA400249296 /* Debug */,
+				81C35D171F360EA400249296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C35D181F360EA400249296 /* Build configuration list for PBXNativeTarget "Swayter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C35D191F360EA400249296 /* Debug */,
+				81C35D1A1F360EA400249296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C35D1B1F360EA400249296 /* Build configuration list for PBXNativeTarget "SwayterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C35D1C1F360EA400249296 /* Debug */,
+				81C35D1D1F360EA400249296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C35D1E1F360EA400249296 /* Build configuration list for PBXNativeTarget "SwayterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C35D1F1F360EA400249296 /* Debug */,
+				81C35D201F360EA400249296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81C35CE81F360EA400249296 /* Project object */;
+}
